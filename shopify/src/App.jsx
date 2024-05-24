@@ -8,58 +8,66 @@ function App() {
   let data = [
     {   
         sale: false,
-        product_name: "Fancy Product",
+        image: "nothing2a.jpg",
+        product_name: "Nothing 2A",
         old_price: null,
-        new_price: "$40.00 - $80.00",
+        new_price: "$349.00",
         ratings: "0"
     },
     {   
         sale: true,
-        product_name: "Special Item",
-        old_price: "$20.00",
-        new_price: "$18.00",
+        image: "oneplus12.png",
+        product_name: "OnePlus 12 R",
+        old_price: "$647.00",
+        new_price: "$597.00",
         ratings: "5"
     },
     {
-      sale: true,
-      product_name: "Sale Item",
-      old_price: "$50.00",
-      new_price: "$25.00",
+      sale: false,
+      image: "x14.jpg",
+      product_name: "Xiaomi 14 Ultra",
+      old_price: "$1499.00",
+      new_price: "$1449.00",
       ratings: "0"
     },
     {
-      sale: false,
-      product_name: "Popular Item",
+      sale: true,
+      image: "Iphone14.jpg",
+      product_name: "Iphone 14",
       old_price: null,
-      new_price: "$40.00",
+      new_price: "$879.00",
       ratings: "5"
     },
     {
       sale: true,
-      product_name: "Sale Item",
-      old_price: "$50.00",
-      new_price: "$25.00",
+      image: "pocof6.jpg",
+      product_name: "Poco F6",
+      old_price: "$453.00",
+      new_price: "$369.00",
       ratings: "0"
     },
     {
       sale: false,
-      product_name: "Fancy Product",
+      image: "ce4.jpg",
+      product_name: "One Plus Nord CE4",
       old_price: null,
       new_price: "$120.00 - $280.00",
       ratings: "0"
     },
     {
       sale: true,
-      product_name: "Special Item",
-      old_price: "$20.00",
-      new_price: "$18.00",
+      image: "asus10.jpg",
+      product_name: "Asus ROG 10",
+      old_price: "$324.00",
+      new_price: "$300.00",
       ratings: "5"
     },
     {
       sale: false,
-      product_name: "Popular Item",
+      image: "s24.jpg",
+      product_name: "Samsung S24 Ultra",
       old_price: null,
-      new_price: "$40.00",
+      new_price: "$1300.00",
       ratings: "5"
     }
   ]

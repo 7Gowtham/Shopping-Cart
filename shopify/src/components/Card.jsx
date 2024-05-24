@@ -6,10 +6,10 @@ function Card(props) {
         <div className="col mb-5">
             <div className="card h-100">
                 {(props.data.sale)?<div className="badge bg-dark text-white position-absolute" style={{ top: "0.5rem", right: "0.5rem" }}>Sale</div>:<></>}
-                <img className="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+                <img className="card-img-top" src={`./img/${props.data.image}`} alt="..." />
                 <div className="card-body p-4">
                     <div className="text-center">
-                        <h5 className="fw-bolder">{props.data.product_name}</h5>
+                        <h5 className="fw-bolder"><strong>{props.data.product_name}</strong></h5>
                         {(props.data.ratings == 5) ?<div className="d-flex
                             justify-content-center small text-warning mb-2">
                             <div className="bi-star-fill"></div>
